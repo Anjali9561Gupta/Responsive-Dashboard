@@ -33,16 +33,5 @@ To set up the project locally, follow these steps:
    git clone https://github.com/Anjali9561Gupta/Responsive-Dashboard.git
    
   2. cd responsive-dashboard
-  3. **Folder Structure**
+  3. Visit http://localhost:3000 in your browser to see the dashboard.
 
-   responsive-dashboard/
-│
-├── index.html          # Main HTML file
-├── style.css           # Custom CSS styles
-├── script.js           # Custom JavaScript
-├── assets/             # Directory for images, icons, etc.
-│   └── images/
-│       └── placeholder1.jpg
-│       └── placeholder2.jpg
-│       └── placeholder3.jpg
-└── README.md 
