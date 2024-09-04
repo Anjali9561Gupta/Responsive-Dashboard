@@ -4,7 +4,7 @@ A fully responsive dashboard built with HTML, CSS, jQuery, JavaScript, and Boots
 
 ## Demo
 
-Check out the live demo of the dashboard .
+Check out the live demo - https://responsive-dashboard-psi.vercel.app/
 
 ## Features
 
