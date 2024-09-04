@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Dashboard</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Font Awesome for Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="d-flex" id="wrapper">
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+      <!-- Top Navigation Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <!-- Navbar Brand -->
+        <a class="navbar-brand" href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+
+        <!-- Toggle button for mobile view -->
+        <a class="navbar-toggler" href="#" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </a>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><i class="fas fa-chart-line"></i> Overview <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-file-alt"></i> Reports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-chart-pie"></i> Analytics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-download"></i> Export</a>
+            </li>
+          </ul>
+          <!-- Right side of the navbar -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-link"></i> Link</a>
+            </li>
+           
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Main Content -->
+      <div class="container-fluid">
+        <h1 class="mt-4">Responsive Dashboard</h1>
+        <p>This is a simple responsive dashboard layout.</p>
+        
+        <!-- Example of a responsive widget with images -->
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card">
+              <img src="https://thumbs.dreamstime.com/z/education-icons-tree-related-objects-69587646.jpg" class="card-img-top" alt="Widget Image 1">
+              <div class="card-body">
+                <h5 class="card-title">Widget 1</h5>
+                <p class="card-text">This is a widget description. You can put any content here.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card">
+              <img src="https://cdn3.vectorstock.com/i/1000x1000/60/67/people-learning-education-related-vector-20906067.jpg" class="card-img-top" alt="Widget Image 2">
+              <div class="card-body">
+                <h5 class="card-title">Widget 2</h5>
+                <p class="card-text">This is a widget description. You can put any content here.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card">
+              <img src="https://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png" class="card-img-top" alt="Widget Image 3">
+              <div class="card-body">
+                <h5 class="card-title">Widget 3</h5>
+                <p class="card-text">This is a widget description. You can put any content here.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>

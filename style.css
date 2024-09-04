@@ -1,0 +1,21 @@
+body {
+    overflow-x: hidden;
+  }
+  
+  #wrapper {
+    display: flex;
+    flex-direction: column; 
+    align-items: stretch;
+  }
+  
+  #page-content-wrapper {
+    width: 100%;
+  }
+  
+  .card {
+    margin: 10px 0;
+  }
+  
+  .navbar-brand i {
+    margin-right: 8px; 
+  }
